@@ -1,0 +1,97 @@
+header {
+    background:linear-gradient(180deg, #101010,#1b2418,#101010);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #65B32E;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+    
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: "Pixelify Sans";
+    
+}
+
+nav a:hover {
+    color:#65B32E;
+    font-size: larger;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    color: #e5e5e5;
+    font-family: Arial, sans-serif;
+    
+
+}
+
+.pixelify-sans-{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero {
+    min-height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.hero h1 {
+    color: #65B32E;
+    font-size: 48px;
+}
+
+.hero p {
+    color: #e5e5e5;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #65B32E;
+    color: #101010;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #8BE64A;
+    border-radius: 3px;
+    box-shadow: 4px 4px 0px #294D16;
+    transition: 0.3s;
+
+}
+
+/*efeito ao passar o mouse*/
+.btn:hover {
+    background-color: #8BE64A;
+    box-shadow: 0px 0px 15px #65B32E;
+    transform: translateY(-3px);
+}
