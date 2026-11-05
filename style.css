@@ -39,7 +39,7 @@ nav a:hover {
 body{
     margin: 0;
     padding: 0;
-    background-color: #101010;
+    background-color: black;
     color: #e5e5e5;
     font-family: Arial, sans-serif;
     
@@ -53,24 +53,41 @@ body{
   font-style: normal;
 }
 
-.hero {
-    min-height:500px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+.inicio {
+    min-height: 85px;
+    display: flex;
     align-items: center;
-    text-align: center;
-    padding: 40px;
-
+    justify-content: center;
 }
 
-.hero h1 {
+.iniciocontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    width: 85%;
+}
+
+.inicioimg {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+.iniciocontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.iniciocontent h1 {
     color: #65B32E;
-    font-size: 48px;
+    font-size: 42px;
 }
 
-.hero p {
-    color: #e5e5e5;
+.iniciocontent p {
+    color: white;
     font-size: 18px;
 }
 
