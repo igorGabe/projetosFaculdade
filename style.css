@@ -112,3 +112,25 @@ body{
     box-shadow: 0px 0px 15px #65B32E;
     transform: translateY(-3px);
 }
+
+.sobre h2{
+    background:linear-gradient(180deg, #101010,#1b2418,#101010);
+    height: 50px;
+    align-items: center;;
+    width: 100%;
+    border-bottom: 1px solid #65B32E;
+    border-top: 1px solid #65B32E;
+    text-align: center;
+    color: #65B32E;
+    justify-content: center;
+    display: flex;
+}
+
+.sobre p{
+    font-size: 18px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
